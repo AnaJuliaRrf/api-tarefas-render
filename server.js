@@ -64,7 +64,8 @@ app.get("/", (req, res) => {
   res.json({
     status: "🚀 API de Tarefas rodando com CI/CD no Render",
     versao: "1.0.2",
-    timestamp: new Date().toISOString()
+    timestamp: new Date().toISOString(),
+    criadoEm: "06/05/2026",
   });
 });
 
